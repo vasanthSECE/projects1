@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshFruits.Com</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            overflow-y: scroll; 
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-bottom: 5px solid #388E3C;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .offer {
+            background-color: #FFEB3B;
+            padding: 25px;
+            border-radius: 5px;
+            text-align: center;
+            border-radius: 100px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 850px;
+            margin: 20px auto;
+            padding: 0 10px;
+            justify-items: center;
+        }
+        .product {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            align-items: center;
+        }
+        .product:hover {
+            transform: translateY(-5px);
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .product h2 {
+            margin: 0;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 5px;
+        }
+        .product p {
+            margin: 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+        }
+        .feature {
+            background-color: #2196F3;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FreshFruits.Com</h1>
+        <div class="offer">
+            <h2>Special Offer!</h2>
+            <p>Buy 2 kg of Apples, Get 1 kg free!</p>
+            <p>Get the fresh fruits with lowest cost!!</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="product">
+            <img src="c:\Users\HP\Pictures\Saved Pictures\download.jpeg" alt="Apple">
+            <h2>Apple</h2>
+            <p>Price: ₹120 per kg</p>
+        </div>
+        <div class="product">
+            <img src="c:\Users\HP\Pictures\Saved Pictures\download banana.jpeg" alt="Banana">
+            <h2>Banana</h2>
+            <p>Price: ₹50 per kg</p>
+        </div>
+        <div class="product">
+            <img src="c:\Users\HP\Pictures\Saved Pictures\download orange 2.jpeg" alt="Orange">
+            <h2>Orange</h2>
+            <p>Price: ₹60 per kg</p>
+        </div>
+        <div class="product">
+            <img src="c:\Users\HP\Pictures\Saved Pictures\download grapes.jpeg" alt="Grape">
+            <h2>Grape</h2>
+            <p>Price: ₹150 per kg</p>
+        </div>
+        <div class="product">
+            <img src="c:\Users\HP\Pictures\Saved Pictures\download kiwi.jpeg" alt="Kiwi">
+            <h2>Kiwi</h2>
+            <p>Price: ₹100 per kg</p>
+        </div>
+        <div class="product">
+            <img src="c:\Users\HP\Pictures\Saved Pictures\download mango.jpeg" alt="Mango">
+            <h2>Mango</h2>
+            <p>Price: ₹80 per kg</p>
+        </div>
+        <!-- Add more fruits as needed -->
+    </div>
+    <div class="feature">
+        <h2>Additional Features</h2>
+        <ul>
+            <li>Wide variety of fresh fruits available</li>
+            <li>Option for home delivery</li>
+            <li>Seasonal discounts and offers</li>
+            <li>Easy online ordering</li>
+            <li>Friendly customer support</li>
+        </ul>
+    </div>
+    <footer>
+        <p>Contact us: support@freshfruits.com | Phone: 123-456-7890</p>
+    </footer>
+</body>
+</html>

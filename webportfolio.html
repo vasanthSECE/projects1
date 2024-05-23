@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333; /* Set default text color */
+        }
+
+        header {
+            background-color: #000000;
+            color: #b4d1d0;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 999; /* Ensure header stays on top */
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        #profile {
+            position: fixed;
+            top: 100px; /* Adjust top position */
+            left: 10px; /* Adjust left position */
+            width: 150px; /* Adjust width as needed */
+            border-radius: 50%;
+            border: 2px solid #fff;
+            z-index: 999; /* Ensure profile stays on top */
+        }
+
+        #about {
+            padding: 100px 20px 20px; /* Adjust top padding to make space for header */
+            text-align: left; /* Align text to left */
+            color: #000000; /* Set text color */
+        }
+
+        #about img {
+            width: 200px;
+            border-radius: 50%;
+            border: 4px solid #333;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        #about img:hover {
+            transform: rotate(360deg);
+        }
+
+        #skills, #projects, #resume, #contact {
+            padding: 20px;
+            text-align: left; /* Align text to left */
+            color: #000000; /* Set text color */
+        }
+
+        .project {
+            margin-bottom: 20px;
+            text-align: left; /* Align text to left */
+            color: #000000; /* Set text color */
+        }
+
+        .project-img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project-img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>VASANTH R</h1>
+        <!-- Add your profile image here -->
+        
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="c:\Users\HP\Pictures\WhatsApp Image 2024-04-15 at 13.50.46_f4ac1090.jpg" alt="John Doe">
+        <p>Hello! i am vasanth a passionate student persuing my Bachelor of technology degree at an autonomous institute Sri Eshwar college of Engineering!.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>UI/UX Design</li>
+            <li>C++ Programming language </li>
+            <li>C Programming language </li>
+            <li>Python programming language</li>
+           
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            
+            <h3>Project 1</h3>
+            <img src="project1.jpg" alt="Project 1" class="project-img">
+            <p>PASSWORD GENERATOR
+                In my first semester of college, I developed a password generator application using C programming language. This project involved 
+                designing and implementing algorithms to generate secure and random passwords based on user-defined criteria such as length and 
+                character types. Through this project, I gained practical experience in algorithm design, data manipulation, and user input validation. 
+                Developing this password generator not only honed my programming skills but also instilled in me a strong understanding of 
+                cybersecurity principles and the importance of creating robust, user-friendly software solutions.</p>
+        </div>
+        <div class="project">
+            
+            <h3>Project 2</h3>
+            <img src="project2.jpg" alt="Project 2" class="project-img">
+            <p> WEB CALCULATOR 
+                 in  my internship at codsoft i have completed my project that is web calculator using html and css! in that i have used the perfect 
+                 codes to make it attractive and also added some basic functions to it using javascript .
+            </p>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="c:\Users\HP\Documents\vasanth resume pdf . second sem.pdf" download>Download Resume</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email:vasanth37141@gmail.com</p>
+        <p>Phone:+91 9994373370</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 VASANTH R. All rights reserved.</p>
+    </footer>
+</body>
+</html>
